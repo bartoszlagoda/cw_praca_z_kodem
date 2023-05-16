@@ -32,4 +32,4 @@ jobs:
         pip install -r "requirements.txt"
     - name: Analysing the code with pylint
       run: |
-        pylint "app.py"
+        pylint C:\Users\blagoda\Desktop\bartoszlagoda\cw_praca_z_kodem\app.py
