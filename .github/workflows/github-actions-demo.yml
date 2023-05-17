@@ -33,4 +33,4 @@ jobs:
     - name: Analysing the code with pylint
       run: |
         pip install --user pylint
-        pylint app.py
+        pylint $(find . -name "*.py" | xargs)
