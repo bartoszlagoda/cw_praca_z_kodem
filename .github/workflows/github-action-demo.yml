@@ -9,7 +9,7 @@ jobs:
     steps:
       - name: Wyswietl
         run: python --version
-  Test pylint:
+  Test_pylint:
     runs-on: ubuntu-latest
     strategy:
       matrix:
