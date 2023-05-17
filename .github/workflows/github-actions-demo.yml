@@ -15,13 +15,13 @@ jobs:
         run: python --version
   testuj_pylint:
     runs-on: ubuntu-latest
-    name: Run Pylint
+    name: Uruchomienie Pylint
     steps:
     - name: Sprawdzenie_kodu
-      uses: actions/setup-python@v2
+      uses: actions/setup-python@v3
 
     - name: Ustawienie_pythona
-      uses: actions/setup-python@v2
+      uses: actions/setup-python@v3
       with:
         python-version: 3.x
 
