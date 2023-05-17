@@ -36,5 +36,5 @@ jobs:
         pip install pylint
     - name: Analysing the code with pylint
       run: |
-        cd cw_praca_z_kodem
+        ls
         pylint $(git ls-files '*.py')
