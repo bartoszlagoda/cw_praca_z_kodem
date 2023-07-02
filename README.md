@@ -1,6 +1,9 @@
 aby uruchomić serwer pisz: make -i
 aby uruchomić pylint pisz: make pylint
 
+make run_app
+
+
 Plik README ma kluczowe znaczenie w projekcie na GitHub i pełni kilka istotnych funkcji.
 Oto kilka powodów, dlaczego plik README jest ważny:
 
